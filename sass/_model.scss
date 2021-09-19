@@ -1,0 +1,62 @@
+.model {
+  margin: 0 auto;
+  padding: 1rem;
+
+  @include mq(md) {
+    padding: 0;
+  }
+
+  &__data {
+    position: relative;
+    border: $border-element;
+  }
+
+  &__data-number-title {
+    margin: 1rem 0 0;
+    text-align: center;
+  }
+
+  &__data-number-form {
+    max-width: $max-width / 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
+
+  &__data-number-input {
+    height: 4.5rem;
+    width: 35%;
+    padding: 0 .4rem;
+    font-size: 4rem;
+
+    @include mq(md) {
+      height: 3rem;
+      font-size: 2.2rem;
+    }
+  }
+
+  &__data-number-button {
+    width: 50%;
+    height: 4.5rem;
+    background-color: $bg-main-color;
+
+    @include mq(md) {
+      padding: 0;
+      height: 3rem;
+      line-height: 2rem;
+      font-size: 1.8rem;
+      transition: .2s;
+
+      &:hover {
+        background-color: $text-secondary-color;
+        color: $bg-main-color;
+      }
+    }
+  }
+
+  &__charts-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

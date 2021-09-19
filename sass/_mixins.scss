@@ -1,0 +1,13 @@
+@mixin mq($breakpoint) {
+  $size: map-get($map: $breakpoints, $key: $breakpoint);
+
+  @if ($size) {
+    @media screen and #{$size} {
+      @content;
+    }
+  }
+
+  @else {
+    @error '#{$breakpoint} doesnt exists';
+  }
+}

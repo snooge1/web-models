@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Models</title>
+</head>
+
+<body>
+  <div class="wrapper" data-wrapper>
+
+    <header class="header">
+      <img class="header__image" src="/assets/idea.svg" alt="">
+      <h1 class="header__title">web - models</h1>
+    </header>
+
+    <main class="main-contnent">
+      <div class="main-menu">
+        <ul class="main-menu__list">
+
+          <li class="main-menu__list-item">
+            <button class="main-menu__button button" data-model-btn="balisticCurve">
+              Balistic Curve
+            </button>
+          </li>
+
+          <li class="main-menu__list-item">
+            <button class="main-menu__button button" data-model-btn="dampedHarmonicOscilator">
+              Damped Harmonic Oscillator
+            </button>
+          </li>
+
+          <li class="main-menu__list-item">
+            <button class="main-menu__button button" data-model-btn="earthSatelliteOrbit">
+              Earth Satellite Orbit
+            </button>
+          </li>
+
+          <li class="main-menu__list-item">
+            <button class="main-menu__button button" data-model-btn="radioactiveDecay">
+              Radioactive Decay
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <section class="model">
+        <div class="model__data">
+
+          <form class="var-form" data-container></form>
+
+          <div class="model__data-number hidden" data-number-of-data-container>
+
+            <h2 class="model__data-number-title">Number of data to calculate</h2>
+            <form class="model__data-number-form">
+              <input class="model__data-number-input" type="number" value="500" data-number-of-data-input>
+              <button type="button" class="model__data-number-button button" data-generate-chart>
+                Generate Chart
+              </button>
+            </form>
+
+          </div>
+
+          <div class="model__help-modal hidden" data-help-modal></div>
+
+        </div>
+        <div class="model__charts-container" data-chart></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social-media">
+        <a href="" class="footer__link">
+          <img class="footer__image" src="/assets/icons/github.svg" alt="Github">
+        </a>
+        <a href="" class="footer__link">
+          <img class="footer__image" src="/assets/icons/linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="" class="footer__link">
+          <img class="footer__image" src="/assets/icons/email.svg" alt="E-mail">
+        </a>
+      </div>
+
+      <div class="footer__made-by">Icons made by <a href="https://www.flaticon.com/authors/tomas-knop"
+          title="Tomas Knop">Tomas
+          Knop</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    </footer>
+
+  </div>
+</body>
+
+</html>

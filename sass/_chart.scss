@@ -1,0 +1,44 @@
+.chart {
+  margin-top: $main-spacing;
+  border: $border-element;
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $main-spacing;
+    border-bottom: $border-element;
+  }
+
+  &__title {
+    flex: 1 0 60%;
+  }
+
+  &__starting-inputs {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon-container {
+    flex: 1 0 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding: ($main-spacing / 3) 0;
+    cursor: pointer;
+  }
+
+  &__display {
+    max-width: 20px;
+    margin: 0 $main-spacing;
+    transition: .2s;
+
+    @include mq(sm) {
+      max-width: 30px;
+      ;
+
+      &:hover {
+        filter: $model-icon-hover-color;
+      }
+    }
+  }
+}

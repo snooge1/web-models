@@ -1,0 +1,46 @@
+.var-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__row {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+
+    @include mq(xs) {
+      flex: 1 0 50%;
+      border-bottom-width: 2px;
+      justify-content: space-evenly;
+    }
+
+    @include mq(md) {
+      flex: 1 0 33%;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+
+  &__size {
+    width: 3rem;
+  }
+
+  &__input {
+    width: 50%;
+    font-size: 2rem;
+
+    &:hover {
+      content: attr(data-full-name);
+    }
+
+    @include mq(md) {
+      font-size: 1rem;
+    }
+  }
+
+  &__unit {
+    width: 4rem;
+  }
+}

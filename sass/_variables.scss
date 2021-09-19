@@ -1,0 +1,32 @@
+$base-font-size: 10px;
+$xs-font-size: 12px;
+$md-font-size: 14px;
+
+$font-family: 'Ubuntu',
+sans-serif;
+
+$main-spacing: 10px;
+$max-width: 1024px;
+
+$bg-main-color: #ffffff;
+$button-bg-color: transparent;
+
+
+$text-primary-color: #1895aa;
+$text-secondary-color: #ef9f35;
+
+//atom
+
+// $text-primary-color: #0e365c;
+// $text-secondary-color: #ff641a;
+
+$border-element: 2px solid $text-secondary-color;
+
+$model-icon-hover-color: invert(45%) sepia(97%) saturate(376%) hue-rotate(141deg) brightness(89%) contrast(96%);
+
+$default-shadow: $text-primary-color 0em 0em 0.2em;
+
+$breakpoints: (xs: (min-width: 480px),
+  sm: (min-width: 800px),
+  md: (min-width: 1240px),
+);

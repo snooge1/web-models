@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  flex: 1 10 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: $main-spacing;
+
+  &__social-media {
+    max-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    text-align: center;
+  }
+
+  &__image {
+    width: 20%;
+  }
+
+  &__made-by {
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+
+    a {
+      color: #555
+    }
+  }
+}
