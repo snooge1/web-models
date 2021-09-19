@@ -1,7 +1,8 @@
 # web-models App
 
-![version](https://img.shields.io/badge/version-1.0.0-green) [![demo](https://img.shields.io/badge/demo-online-succes)](https://snooge.smallhost.pl/web-models/)&nbsp;
-This is a simple JS app for creating mathematical models and presenting their graphs.  
+![version](https://img.shields.io/badge/version-1.0.0-green) [![demo](https://img.shields.io/badge/demo-online-succes)](https://snooge.smallhost.pl/web-models/)
+
+This is a simple JS app for creating mathematical models and presenting their graphs (with [Chart.js](https://github.com/chartjs/Chart.js/)).  
 
 ## Features
 
