@@ -63,6 +63,3 @@ class App {
 }
 
 export const app = new App();
-
-// nie zapisuje  wartosci inputow zmiennych
-// help nie działa
